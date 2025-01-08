@@ -1,0 +1,755 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+   
+}
+
+:root{
+    --cor-fundo: #80808029;
+    --cor-fundo2:#fff;
+    --cor-texto1:#5d15d1;
+}
+
+body, main{
+    min-width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    
+}
+.topo{
+    width: 100%;
+    height: 100%;
+    background-color: var(--cor-fundo2);
+    
+}
+.conteudo-topo{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    font-size: 24px;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: var(--cor-texto1);
+}
+.conteudo-topo img{
+    height: 24px;
+}
+
+.conteudo-principal-secao1{
+    width: 100%;
+    height: 100%;
+    background-image: url('imagens/rio.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.container-do-form{
+  padding: 20px;
+  margin: 0 10%;
+
+}
+.secao1-form{
+    padding: 20px 25px;
+    margin: 0 10%;
+    box-sizing: border-box; 
+    background-color: #e2d5f1;
+}   
+.form-cabecalho{
+    
+    height: 24px;
+    font-family: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-fundo2);
+    background-color: var(--cor-texto1);
+    
+}
+
+.form-cabecalho img{
+    padding: 0 10px;
+    height: 18px;
+    width: 18px;
+}
+.formulario-column{
+  margin: 0 10%;
+}
+fieldset{
+    border: none;
+}
+legend{
+    padding-top: 20px;
+}
+.formulario-column input{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+.formulario-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.formulario-row input{
+    width: 50%;
+    text-align: center;  
+    margin-left: 5%;
+}
+
+.formulario-selecao{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 0;
+}
+.formulario-selecao label{
+    width: 30%;
+    
+    
+}
+
+
+
+select{
+    width: 60%;
+    margin-right: 5%;
+}
+.formulario-column2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    
+}
+.formulario-column2 div{
+    padding-left: 2%;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.formulario-column3{
+    display: flex;
+    flex-direction: column;    
+    margin: 0 10%;
+}
+.formulario-column3 .form-radio{
+    width: 40%;
+}
+
+.formulario-column3-check {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;   
+    
+}
+.formulario-column3-check div{
+    padding-right: 1em;
+}
+
+.botao{
+    text-align: center;
+    
+}
+
+.botao button{
+   
+    margin: 30px 0;
+    color: var(--cor-fundo2);
+    background-color: #5d15d1;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover{
+  background-color: #f34141;
+  
+  color: var(--cor-fundo2);
+  
+}
+
+.conteudo-principal-secao2{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.container-ofertas{
+    margin: 5% 10%;
+}
+.cards-ofertas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.ofertas-rio{
+    position: relative;
+    width: 50%;
+    height: 100%;
+   
+}
+.ofertas-rio img{    
+    width: 100%;
+    height: 390px;
+}
+.ofertas-rio-texto{
+    position: absolute;
+    top: 89%;
+    width: 100%;
+    height: 10%;
+    color: var(--cor-fundo2);
+    background-color: rgb(0, 0, 0, 0.8);
+    text-align: left;
+}
+
+
+.ofertas-rio2{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    margin-left : 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    
+}
+.ofertas span{
+    position: absolute;   
+   
+   
+}   
+.ofertas{    
+    position: relative;
+    width: 40%;
+    height: 100%;
+    margin: 1% 1% 0 1%;
+    flex-grow: 1;
+    gap: 5px;
+}
+
+.ofertas img{
+    width: 100%;
+    height: 190px;
+    
+}
+
+.ofertas-texto{
+    position: absolute;    
+    top: 89%;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    color: var(--cor-fundo2);
+    background-color: rgb(0, 0, 0, 0.8);
+}
+.ofertas-texto span{
+    padding: 1% 1% 1% 0;
+}
+
+.container-natureza{
+    width: 100%;
+    height: 100%;
+    
+}
+.container-natureza-texto{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+.cards-natureza{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 0 10%;
+   
+}
+.natu-cards{    
+    width: 49%;
+    
+}
+
+.natu-cards img{
+    width: 100%;
+    height: 50%;
+}
+
+footer{
+    width: 100%;
+    height: 50%;
+    color: #fff;
+    background-color: #5d15d1;
+}
+
+.rodape-conteudo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.rodape-contato{
+    position: relative;
+    width: 40%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.rodape-contato span{
+    padding: 2px 0;
+}
+.insta::before{
+    content:"";
+    position: absolute;
+    background-image: url("imagens/ig.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    right: 65%;
+}   
+
+.face::before{
+    content:"";
+    position: absolute;
+    background-image: url("imagens/fb.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    right: 65%;
+}
+
+.twiter::before{
+    content:"";
+    position: absolute;
+    background-image: url("imagens/tt.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    right: 65%;
+}
+
+@media screen and (max-width: 540px){
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+       
+    }
+    
+    :root{
+        --cor-fundo: #80808029;
+        --cor-fundo2:#fff;
+        --cor-texto1:#5d15d1;
+    }
+    
+    body, main{
+        min-width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        font-size: 10px;
+    }
+    .topo{
+        width: 100%;
+        height: 100%;
+        background-color: var(--cor-fundo2);
+        
+    }
+    .conteudo-topo{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        font-size: 12px;
+        margin-right: 10%;
+        margin-left: 10%;
+        color: var(--cor-texto1);
+    }
+    .conteudo-topo img{
+        height: 10px;
+    }
+    
+    .conteudo-principal-secao1{
+        width: 100%;
+        height: 100%;
+        background-image: url('imagens/rio.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .container-do-form{
+       padding: 5%;
+       margin:0 5%;
+        
+        
+    }
+    .formulario{
+        width: 100%;
+        height: 100%;
+        text-align: left;
+    }
+    .secao1-form{
+        width: 100%;
+        box-sizing: border-box; 
+        background-color: #e2d5f1;
+        padding: 0 0;
+        margin: 0;
+    }   
+    .form-cabecalho{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: var(--cor-fundo2);
+        background-color: var(--cor-texto1);
+        
+    }
+    
+    .form-cabecalho img{
+       width: 5%;
+    }
+    .formulario-column{
+      
+      margin: 0% 10%;
+    }
+    fieldset{
+        border: none;
+        width: 100%;
+    }
+    legend{
+        padding-top: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+    }
+ 
+    .formulario-column input{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        height: 10%;
+        margin: 2% 0;
+        max-width: 100%;
+        font-size: 8px;
+        padding: 2% 0;
+        padding-left: 5%;
+        padding-right: 0;
+    }
+    .formulario-column2 input{
+        width: 100%;
+        display:flex;
+        flex-direction: column;        
+        padding: 0;
+    }
+    .formulario-row{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        
+        
+    }
+    
+    .formulario-row input{
+        width: 100%;
+        
+    }
+    
+    .formulario-selecao{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 2% 0;
+    }
+    .formulario-selecao label{
+        width: 100%;
+        padding: 1% 0;
+    }
+    
+    select{
+        width: 100%;
+        margin-right: 5%;
+        font-size: 8px;
+    }
+    .formulario-column2{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        width: 100%;
+        
+        
+    }
+    .formulario-column2 label{
+        width: 100%;
+        text-align: left;
+    }
+
+    .formulario-column2 input{
+        width: 100%;
+        text-align: left;
+    }
+    
+    .formulario-column3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;  
+        padding-top: 2%;
+    }
+    .form-radio{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1% 0;
+       
+    }
+    
+    .formulario-column3-check {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+          
+        
+    }
+    .formulario-column3-check  div{
+        padding-right: 0;
+    }
+    .check{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1% 0;
+       
+    }
+    .botao{
+        text-align: center;
+        
+    }
+    
+    .botao button{
+       
+        margin: 15px 0;
+        color: var(--cor-fundo2);
+        background-color: #5d15d1;
+        border: none;
+        border-radius: 2.5px;
+        padding: 2.5px 5px;
+        cursor: pointer;
+        font-size: 8px;
+    }
+    
+    button:hover{
+      background-color: #f34141;
+      
+      color: var(--cor-fundo2);
+      
+    }
+    
+    .conteudo-principal-secao2{
+        width: 100%;
+        height: 100%;
+        
+        
+    }
+    .container-ofertas{
+        margin: 5% 10%;
+    }
+    .cards-ofertas{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .ofertas-rio{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding-top: 5%;
+       
+    }
+    .ofertas-rio img{    
+        width: 100%;
+        height: 25vh;
+    }
+    .ofertas-rio-texto{
+        position: absolute;
+        top: 90%;
+        width: 100%;
+        height: 10%;
+        color: var(--cor-fundo2);
+        background-color: rgb(0, 0, 0, 0.8);
+        text-align: left;
+    }
+    .ofertas-rio-texto p{
+        padding-left: 5%;
+        padding-bottom: 5%;
+        font-size: 14px;
+    }
+    
+    
+    .ofertas-rio2{
+        position: relative;
+        width: 100%;
+        height: 100%;        
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+        
+        
+    }
+    .ofertas p{
+        padding-left: 5%;
+        padding-bottom: 5%;
+        font-size: 14px;
+       
+    }   
+    .ofertas{    
+        position: relative;
+        width: 100%;
+        height: 25vh;
+        margin-left: 0;
+        
+    }
+    
+    .ofertas img{
+        width: 100%;
+        height: 25vh;
+        
+    }
+    
+    .ofertas-texto{
+        position: absolute;
+        top: 90%;
+        width: 100%;
+        height: 10%;
+        color: var(--cor-fundo2);
+        background-color: rgb(0, 0, 0, 0.8);
+        text-align: left;
+    }
+    .ofertas-texto span{
+        padding: 1% 1% 1% 0;
+    }
+    
+    .container-natureza{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .container-natureza-texto{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        margin-top: 10%;
+    }
+    .cards-natureza{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        margin: 0 10%;
+       
+    }
+    .natu-cards{    
+        width: 100%;
+        padding: 3% 0;
+        margin-bottom: 5%;
+    }
+    
+    .natu-cards img{
+        width: 100%;
+        height: 50%;
+    }
+    
+    footer{
+        width: 100%;
+        height: 50%;
+        color: #fff;
+        background-color: #5d15d1;
+        text-align: justify;
+    }
+    
+    .rodape-conteudo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       align-items: flex-start;
+       margin: 0 30%;
+        
+    }
+    
+    .rodape-contato{
+        position: relative;
+        width: 100%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+    }
+    
+    .rodape-contato span{
+        padding: 2px 0;
+        
+    }
+    .insta::before{
+        content:"";
+        position: absolute;
+        background-image: url("imagens/ig.png");
+        background-size: 15px;
+        background-repeat: no-repeat;
+        width: 15px;
+        height: 15px;
+        left: -5%;
+    }   
+    
+    .face::before{
+        content:"";
+        position: absolute;
+        background-image: url("imagens/fb.png");
+        background-size: 15px;
+        background-repeat: no-repeat;
+        width: 15px;
+        height: 15px;
+        left: -5%;
+    }
+    
+    .twiter::before{
+        content:"";
+        position: absolute;
+        background-image: url("imagens/tt.png");
+        background-size: 15px;
+        background-repeat: no-repeat;
+        width: 15px;
+        height: 15px;
+        left: -5%;
+    }
+}

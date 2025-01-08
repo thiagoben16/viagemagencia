@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A agencia de Viagens encontra o hotel certo para você">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="topo">
+        <div class="conteudo-topo">
+            <img src="imagens/local-logo.png"alt="Logo da agência">
+            <span>Agência de Viagens</span>
+        </div>        
+    </header>
+    <main>
+        <section class="conteudo-principal-secao1">
+            <div class="container-do-form">
+                <div class="secao1-form">
+                    <div class="form-cabecalho">
+                        <img src="imagens/aviao.png" alt="">
+                        <p>Solicite um orçamento</p>                    
+                    </div>
+                    <form class="formulario" action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/">
+                        <fieldset>
+                            <legend>Informe seus Dados</legend>
+                            <div class="formulario-column">
+                                <label for="nome-form">Nome</label>
+                                <input type="text" name="nome" id="nome-form" required placeholder="Digite seu nome">
+                            </div>
+                            <div class="formulario-column">
+                                <label for="email-form">Email</label>
+                                <input type="email" name="email" id="nome-form" required placeholder="Digite seu email">
+                            </div>
+                            <div class="formulario-column">
+                                <label for="fone-form">Celular</label>
+                                <input type="tel" name="fone" id="fone-form" required placeholder="(xx)xxxxx-xxxx">
+                            </div>
+                            <div class="formulario-column">
+                                <div class="formulario-row">
+                                    <div class="formulario-column2">
+                                        <label for="data-ida-form">Data da Ida</label>
+                                        <input type="date" name="data-ida" id="data-ida-form" required>
+                                    </div>
+                                    <div class="formulario-column2">
+                                        <label for="data-volta-form">Data da Volta</label>
+                                        <input type="date" name="data-volta" id="data-volta-form" required>
+                                    </div>
+                                </div>
+                                <div class="formulario-selecao">
+                                    <label for="origem-form">Origem</Label>
+                                    <select name="origem" id="origem-form" required>
+                                        <option disabled selected>Origem</option>
+                                        <option value="brasil">Brasil</option>
+                                        <option value="eua">EUA</option>
+                                        <option value="canada">Canadá</option>
+                                        <option value="mexico">México</option>
+                                        <option value="japao">Japão</option>
+                                        <option value="espanha">Espanha</option>
+                                    </select>                                                            
+                                    <label for="destino-form">Destino</Label>
+                                    <select name="destino" id="destino-form" required>
+                                        <option disabled selected>Destino</option>
+                                        <option value="brasil">Brasil</option>
+                                        <option value="eua">EUA</option>
+                                        <option value="canada">Canadá</option>
+                                        <option value="mexico">México</option>
+                                        <option value="japao">Japão</option>
+                                        <option value="espanha">Espanha</option>
+                                    </select>                                
+                                </div>
+                            </div>    
+                            <div>
+                                <div class="formulario-column3">
+                                    <p>Quartos com cama infantil:</p>
+                                    <div class="form-radio">
+                                        <label for="sim-radio">Sim</label>
+                                        <input type="radio" name="sim" id="sim-radio">
+                                    </div>
+                                    <div class="form-radio">
+                                        <label for="nao-radio">Não</label>
+                                        <input type="radio" name="sim" id="nao-radio">
+                                    </div>
+                                </div>
+                                <div class="formulario-column3">
+                                    <div class="formulario-column3-text">
+                                        <p>Preferência da Hospedagem:</p>
+                                    </div>
+                                    <div class="formulario-column3-check">
+                                        <div class="check">
+                                            <label for="piscina-check">Piscina</label>
+                                            <input type="checkbox" name="piscina" id="piscina-check">
+                                        </div>
+                                        <div class="check">                                             
+                                            <label for="wifi-check">Wi-Fi</label>
+                                            <input type="checkbox" name="wifi" id="wifi-check">
+                                        </div>
+                                        <div class="check">              
+                                            <label for="garagem-check">Garagem</label>
+                                            <input type="checkbox" name="garagem" id="garagem-check">
+                                        </div>
+                                        <div class="check">           
+                                            <label for="suite-check">Suíte</label>
+                                            <input type="checkbox" name="suite" id="suite-check">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </fieldset>
+                        <div class="botao">
+                            <button type="submit">Solicitar Orçamento</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="conteudo-principal-secao2">
+            <div class="container-ofertas">
+                <div>
+                    <h3>Ofertas</h3>
+                    <p>Com até 50% de desconto:</p>
+                </div>
+                <div class="cards-ofertas">
+                    <div class="ofertas-rio">
+                        <img src="imagens/rio.jpg" alt="">
+                        <div class="ofertas-rio-texto">
+                            <p class="texto-card-rio">Rio de Janeiro</p>
+                        </div>
+                    </div>
+                    <div class="ofertas-rio2">
+                        <div class="ofertas">
+                            <img src="imagens/manaus.jpg" alt="">
+                            <div class="ofertas-texto">
+                                <p>Manaus</p>
+                            </div>
+                        </div>
+                        <div class="ofertas">
+                            <img src="imagens/saopaulo.jpg" alt="">
+                            <div class="ofertas-texto">
+                                <p>São Paulo</p>
+                            </div>
+                        </div>
+                        <div class="ofertas">
+                            <img src="imagens/maranhao.jpg" alt="">
+                            <div class="ofertas-texto">
+                                <p>Maranhão</p>
+                            </div>
+                        </div>
+                        <div class="ofertas">
+                            <img src="imagens/bahia.jpg" alt="">
+                            <div class="ofertas-texto">
+                                <p>Bahia</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            <div class="container-natureza">
+                <div class="container-natureza-texto">
+                    <h3>Explore a Natureza</h3>
+                    <span>Viaje conosco e veja o que melhor a natureza tem a oferecer.</span>
+                </div>
+            </div>
+            <div class="cards-natureza">
+                <div class="natu-cards">
+                    <img src="imagens/lencol.jpg" alt="">
+                    <h4>Lençois Maranhenses, Brasil</h4>
+                    <p>Ida e volta a partir de R$79</p>
+                </div>
+                <div  class="natu-cards">
+                    <img src="imagens/goias.jpg" alt="">
+                    <h4>Cachoeira Santa Bárbara, Brasil</h4>
+                    <p>Ida e volta a partir de R$139</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            <div class=" rodape-contato">
+                <h3>Contato</h3>
+                <span>Rio de Janeiro, RJ</span>
+                <span>Telefone: (21) 99999 9999</span>
+                <span>Email: contato@agencia.com.br</span>
+            </div>
+            <div class="rodape-contato">
+                <h3>Nossas Redes Sociais</h3>
+                <span class="face">/AgenciaDeViangens</span>
+                <span class="insta">@AgenciaDeViangens</span>
+                <span class="twiter">@AgenciaDeViangens</span>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
